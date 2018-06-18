@@ -1,0 +1,26 @@
+<head>
+  <title>rede-LZAfranquias</title>
+</head>
+
+<body>
+  <h1>Bem-vindo à LZA Franquias!</h1>
+<!--'h1: heading 1 (título 1)'-->
+  {{> hello}}
+  {{> info}}
+</body>
+
+<template name="hello">
+  <button>Clique aqui! :)</button>
+  <p>Isso é um parágrafo... {{counter}} times.</p>
+<!--'p: paragraph'-->  
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+</template>
