@@ -17,3 +17,10 @@ FlowRouter.route("/contato", {
         BlazeLayout.render('LayoutPrincipal', {main:'Contato'});
     }
 });
+
+
+FlowRouter.route("/feed", {
+    action: function(params, queryParams) {
+        BlazeLayout.render('LayoutPrincipal', {main:'Feed'});
+    }
+});
